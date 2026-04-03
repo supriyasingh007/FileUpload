@@ -8,5 +8,5 @@ exports.connect = () => {
     .catch((error) => {
         console.log("DB Connection issue", error);
         process.exit(1);
-    })
+    });
 }
