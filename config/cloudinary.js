@@ -9,6 +9,6 @@ exports.cloudinaryConnect = () => {
         })
     }
     catch(error){
-
+        console.error("Error connecting to Cloudinary:", error);
     }
 }
